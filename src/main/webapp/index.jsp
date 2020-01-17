@@ -14,5 +14,7 @@
 <form action="${pageContext.request.contextPath }/test/hello" method="get">
     <button type="submit" value="">提交测试</button>
 </form>
+<%--页面放在 WEB——INF 无法找到--%>
+<a href="pages/home.jsp">Home</a>
 </body>
 </html>
